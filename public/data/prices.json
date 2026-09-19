@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-19T10:21:51.532Z",
-  "crawlDurationMs": 781,
+  "updatedAt": "2026-09-19T13:57:56.397Z",
+  "crawlDurationMs": 856,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,7 +18,7 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "NTPC / co-firing buy",
@@ -28,12 +28,12 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Mustard / cotton stalk",
@@ -43,11 +43,7 @@
   ],
   "errors": [
     {
-      "label": "Torrefied pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "West India bagasse · bing",
+      "label": "Paddy straw pellet · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
