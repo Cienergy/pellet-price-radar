@@ -1,10 +1,7 @@
 name: Deploy GitHub Pages
 
+# Manual fallback only — scheduled/push crawls publish Pages with fresh price data.
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "public/data/**"
   workflow_dispatch:
 
 permissions:
