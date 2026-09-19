@@ -86,6 +86,8 @@ button, input, select { font: inherit; color: inherit; }
   padding: 0.45rem 0.85rem; cursor: pointer; font-size: var(--fs-xs); font-weight: 600;
 }
 .btn.primary { background: var(--accent); border-color: transparent; color: #fff; }
+.btn:disabled { opacity: 0.65; cursor: wait; }
+.toolbar-error { color: var(--weak); font-size: var(--fs-xs); font-weight: 600; }
 .live-pill {
   margin-left: auto; display: inline-flex; align-items: center; gap: 0.4rem;
   color: var(--muted); font-size: var(--fs-xs); font-weight: 600;

@@ -23,7 +23,7 @@ function rel(iso?: string) {
 }
 
 export function PricesPage() {
-  const { feed, loading, error, refresh } = usePrices();
+  const { feed, loading, refreshing, checkedAt, error, refresh } = usePrices();
   const [feedstock, setFeedstock] = useState("");
   const [region, setRegion] = useState("");
   const [grade, setGrade] = useState("");
@@ -106,13 +106,21 @@ export function PricesPage() {
             <option key={g} value={g}>{g}</option>
           ))}
         </select>
-        <button type="button" className="btn primary" onClick={() => void refresh()}>
-          Refresh
+        <button
+          type="button"
+          className="btn primary"
+          disabled={refreshing}
+          onClick={() => void refresh(true)}
+        >
+          {refreshing ? "Refreshing…" : "Refresh"}
         </button>
         <span className="live-pill">
           <span className="pulse" />
-          Updated {rel(feed.updatedAt)} · crawler every {feed.refreshMinutes} min
+          Feed {rel(feed.updatedAt)}
+          {checkedAt ? ` · checked ${rel(checkedAt)}` : ""}
+          {" · "}crawler every {feed.refreshMinutes} min
         </span>
+        {error ? <span className="toolbar-error">{error}</span> : null}
       </div>
 
       <div className="panel chart-panel">

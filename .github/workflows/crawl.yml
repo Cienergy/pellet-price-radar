@@ -5,16 +5,23 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
+# GITHUB_TOKEN pushes do not trigger other workflows, so this job must
+# deploy Pages itself after writing prices.json.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: price-crawl
+  group: pages
   cancel-in-progress: true
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,3 +41,11 @@ jobs:
             git commit -m "chore: refresh pellet price series"
             git push
           fi
+      - run: npm run build
+        env:
+          VITE_BASE: /pellet-price-radar/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
