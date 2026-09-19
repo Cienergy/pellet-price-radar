@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { PriceFeed } from "./types";
 
 const URL = `${import.meta.env.BASE_URL}data/prices.json`;
@@ -9,8 +9,11 @@ export function usePrices(pollMs = 60_000) {
   const [refreshing, setRefreshing] = useState(false);
   const [checkedAt, setCheckedAt] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const inFlight = useRef(false);
 
   const refresh = useCallback(async (manual = false) => {
+    if (inFlight.current) return;
+    inFlight.current = true;
     if (manual) setRefreshing(true);
     try {
       const res = await fetch(`${URL}?t=${Date.now()}`, {
@@ -25,6 +28,7 @@ export function usePrices(pollMs = 60_000) {
     } catch (err) {
       setError(String((err as Error).message || err));
     } finally {
+      inFlight.current = false;
       setLoading(false);
       setRefreshing(false);
     }
