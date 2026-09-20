@@ -1,5 +1,4 @@
-import { useMemo, useState } from "react";
-import { formatDistanceToNow } from "date-fns";
+import { useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -11,23 +10,23 @@ import {
   YAxis,
 } from "recharts";
 import type { PriceSeries } from "../lib/types";
+import { formatStamp } from "../lib/time";
 import { fmt, usePrices } from "../lib/usePrices";
 
 const COLORS = ["#0f766e", "#1d4ed8", "#b45309", "#be123c", "#7c3aed", "#0891b2", "#65a30d", "#c2410c"];
 
-function rel(iso?: string) {
-  if (!iso) return "—";
-  const t = Date.parse(iso);
-  if (Number.isNaN(t)) return "—";
-  return formatDistanceToNow(t, { addSuffix: true });
-}
-
 export function PricesPage() {
   const { feed, loading, refreshing, checkedAt, error, refresh } = usePrices();
+  const [nowMs, setNowMs] = useState(() => Date.now());
   const [feedstock, setFeedstock] = useState("");
   const [region, setRegion] = useState("");
   const [grade, setGrade] = useState("");
   const [selectedKey, setSelectedKey] = useState<string>("");
+
+  useEffect(() => {
+    const id = window.setInterval(() => setNowMs(Date.now()), 30_000);
+    return () => window.clearInterval(id);
+  }, []);
 
   const filtered = useMemo(() => {
     if (!feed) return [];
@@ -114,11 +113,10 @@ export function PricesPage() {
         >
           {refreshing ? "Refreshing…" : "Refresh"}
         </button>
-        <span className="live-pill">
+        <span className="live-pill" title={feed.updatedAt}>
           <span className="pulse" />
-          Feed {rel(feed.updatedAt)}
-          {checkedAt ? ` · checked ${rel(checkedAt)}` : ""}
-          {" · "}crawler every {feed.refreshMinutes} min
+          Crawl {formatStamp(feed.updatedAt, nowMs)}
+          {checkedAt ? ` · checked ${formatStamp(checkedAt, nowMs)}` : ""}
         </span>
         {error ? <span className="toolbar-error">{error}</span> : null}
       </div>

@@ -1,4 +1,4 @@
-import { formatDistanceToNow } from "date-fns";
+import { formatStamp } from "../lib/time";
 import { usePrices } from "../lib/usePrices";
 
 export function SourcesPage() {
@@ -12,9 +12,9 @@ export function SourcesPage() {
       <div className="scan-hero">
         <h1>Sources</h1>
         <p>
-          Public news price mentions + screening benchmarks. Crawler target: every{" "}
-          {feed.refreshMinutes} minutes (GitHub Actions). Last run{" "}
-          {formatDistanceToNow(Date.parse(feed.updatedAt), { addSuffix: true })} ·{" "}
+          Public news price mentions + screening benchmarks. Target cadence ~15 min
+          (GitHub Actions may delay). Last crawl{" "}
+          <span title={feed.updatedAt}>{formatStamp(feed.updatedAt)}</span> ·{" "}
           {(feed.crawlDurationMs / 1000).toFixed(1)}s
         </p>
       </div>
