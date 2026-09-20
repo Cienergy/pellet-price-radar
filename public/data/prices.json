@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T07:03:08.570Z",
-  "crawlDurationMs": 935,
+  "updatedAt": "2026-09-20T09:46:59.138Z",
+  "crawlDurationMs": 653,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,12 +18,12 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Torrefied pellet",
@@ -41,16 +41,7 @@
       "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Paddy straw pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "NTPC / co-firing buy · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
