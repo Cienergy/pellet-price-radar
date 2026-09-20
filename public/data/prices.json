@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T16:22:47.464Z",
-  "crawlDurationMs": 692,
+  "updatedAt": "2026-09-20T17:03:34.561Z",
+  "crawlDurationMs": 801,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,7 +13,7 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Paddy straw pellet",
@@ -41,12 +41,7 @@
       "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Agri pellet price IN · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
