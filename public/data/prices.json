@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T14:21:58.431Z",
-  "crawlDurationMs": 890,
+  "updatedAt": "2026-09-21T18:54:39.499Z",
+  "crawlDurationMs": 747,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -23,7 +23,7 @@
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Torrefied pellet",
@@ -38,19 +38,10 @@
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "NTPC / co-firing buy · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "Mustard / cotton stalk · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
