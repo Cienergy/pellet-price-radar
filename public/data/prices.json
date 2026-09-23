@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-23T06:22:40.731Z",
-  "crawlDurationMs": 778,
+  "updatedAt": "2026-09-23T06:38:00.399Z",
+  "crawlDurationMs": 694,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,7 +13,7 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Paddy straw pellet",
@@ -28,12 +28,12 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Mustard / cotton stalk",
@@ -43,19 +43,7 @@
   ],
   "errors": [
     {
-      "label": "Agri pellet price IN · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
       "label": "Paddy straw pellet · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
-    },
-    {
-      "label": "Torrefied pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "West India bagasse · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
