@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-23T01:28:06.420Z",
-  "crawlDurationMs": 735,
+  "updatedAt": "2026-09-23T06:22:40.731Z",
+  "crawlDurationMs": 778,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,12 +13,12 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "NTPC / co-firing buy",
@@ -28,22 +28,34 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     }
   ],
   "errors": [
     {
-      "label": "Mustard / cotton stalk · bing",
+      "label": "Agri pellet price IN · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "Paddy straw pellet · bing",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
+    {
+      "label": "Torrefied pellet · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "West India bagasse · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
