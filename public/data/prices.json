@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T05:53:02.061Z",
-  "crawlDurationMs": 751,
+  "updatedAt": "2026-09-24T06:43:13.051Z",
+  "crawlDurationMs": 633,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,12 +18,12 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Torrefied pellet",
@@ -33,32 +33,15 @@
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Paddy straw pellet · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
-    },
-    {
-      "label": "NTPC / co-firing buy · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
-    },
-    {
-      "label": "West India bagasse · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "Mustard / cotton stalk · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
