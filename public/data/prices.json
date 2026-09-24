@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T12:20:41.546Z",
-  "crawlDurationMs": 650,
+  "updatedAt": "2026-09-24T15:50:04.341Z",
+  "crawlDurationMs": 653,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,17 +18,17 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "West India bagasse",
@@ -45,6 +45,18 @@
     {
       "label": "Agri pellet price IN · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "Paddy straw pellet · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "NTPC / co-firing buy · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "Torrefied pellet · bing",
+      "error": "Feed not recognized as RSS 1 or 2."
     }
   ],
   "series": [
