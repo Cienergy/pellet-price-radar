@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-25T07:42:54.986Z",
-  "crawlDurationMs": 545,
+  "updatedAt": "2026-09-25T12:16:17.036Z",
+  "crawlDurationMs": 9783,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,35 +13,60 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "label": "Agri pellet price IN · google",
+      "error": "Status code 503"
+    },
+    {
+      "label": "Paddy straw pellet · google",
+      "error": "Status code 503"
+    },
+    {
+      "label": "NTPC / co-firing buy · google",
+      "error": "Status code 503"
+    },
+    {
+      "label": "Torrefied pellet · google",
+      "error": "Status code 503"
+    },
+    {
+      "label": "West India bagasse · google",
+      "error": "Status code 503"
+    },
+    {
+      "label": "Mustard / cotton stalk · google",
+      "error": "Status code 503"
+    }
+  ],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
