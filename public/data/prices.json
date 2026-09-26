@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-26T22:05:39.447Z",
-  "crawlDurationMs": 774,
+  "updatedAt": "2026-09-26T23:36:13.165Z",
+  "crawlDurationMs": 975,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -23,7 +23,7 @@
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Torrefied pellet",
@@ -41,7 +41,12 @@
       "ok": true
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "label": "NTPC / co-firing buy · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    }
+  ],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
