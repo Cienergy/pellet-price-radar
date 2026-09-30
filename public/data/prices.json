@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30T08:09:09.432Z",
-  "crawlDurationMs": 614,
+  "updatedAt": "2026-09-30T08:59:29.772Z",
+  "crawlDurationMs": 682,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -28,7 +28,7 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "West India bagasse",
@@ -38,10 +38,19 @@
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "label": "Torrefied pellet · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "Mustard / cotton stalk · bing",
+      "error": "Feed not recognized as RSS 1 or 2."
+    }
+  ],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
