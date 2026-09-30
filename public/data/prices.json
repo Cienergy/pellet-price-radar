@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30T14:55:57.971Z",
-  "crawlDurationMs": 1267,
+  "updatedAt": "2026-09-30T15:53:14.263Z",
+  "crawlDurationMs": 596,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -33,7 +33,7 @@
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Mustard / cotton stalk",
@@ -41,12 +41,7 @@
       "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "West India bagasse · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
