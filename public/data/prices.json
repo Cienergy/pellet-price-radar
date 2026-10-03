@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T22:26:39.814Z",
-  "crawlDurationMs": 784,
+  "updatedAt": "2026-10-03T23:55:26.767Z",
+  "crawlDurationMs": 586,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -28,7 +28,7 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "West India bagasse",
@@ -41,12 +41,7 @@
       "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Torrefied pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
