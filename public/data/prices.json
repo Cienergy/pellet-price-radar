@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-03T23:55:26.767Z",
-  "crawlDurationMs": 586,
+  "updatedAt": "2026-10-04T05:44:56.450Z",
+  "crawlDurationMs": 898,
   "refreshMinutes": 15,
   "stats": {
-    "totalPoints": 400,
+    "totalPoints": 409,
     "seriesCount": 9,
     "marketSignals": 0,
     "newThisCrawl": 0,
-    "avgPrice": 6851
+    "avgPrice": 6886
   },
   "sources": [
     {
@@ -435,11 +435,20 @@
           "title": "Wood / sawdust · South India · indicative",
           "url": "",
           "id": "7c1c03552f8abb55"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 11114,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Wood / sawdust · South India · indicative",
+          "url": "",
+          "id": "283f78a24edb8bbf"
         }
       ],
-      "latestPrice": 10941,
-      "changePct": -0.15513779886840665,
-      "sampleCount": 44
+      "latestPrice": 11114,
+      "changePct": 1.581208299058587,
+      "sampleCount": 45
     },
     {
       "key": "Torrefied / densified||All India||Torrefied pellet",
@@ -833,11 +842,20 @@
           "title": "Torrefied / densified · All India · indicative",
           "url": "",
           "id": "bc0443c7ff36c0db"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 9143,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Torrefied / densified · All India · indicative",
+          "url": "",
+          "id": "55c03b7cfdc425ca"
         }
       ],
-      "latestPrice": 9252,
-      "changePct": 1.2032378035440823,
-      "sampleCount": 44
+      "latestPrice": 9143,
+      "changePct": -1.1781236489407696,
+      "sampleCount": 45
     },
     {
       "key": "Mixed agri residue||All India||Industrial / co-firing grade",
@@ -1231,11 +1249,20 @@
           "title": "Mixed agri residue · All India · indicative",
           "url": "",
           "id": "c08d361c98785df9"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 6513,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Mixed agri residue · All India · indicative",
+          "url": "",
+          "id": "2bbbfcf03a44f14a"
         }
       ],
-      "latestPrice": 6426,
-      "changePct": -0.44926413632842754,
-      "sampleCount": 44
+      "latestPrice": 6513,
+      "changePct": 1.353874883286648,
+      "sampleCount": 45
     },
     {
       "key": "Mustard husk||North India||Non-torrefied agri pellet",
@@ -1638,11 +1665,20 @@
           "title": "Mustard husk · North India · indicative",
           "url": "",
           "id": "69fe767c947af163"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 6468,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Mustard husk · North India · indicative",
+          "url": "",
+          "id": "5d012a18c9a167cf"
         }
       ],
-      "latestPrice": 6377,
-      "changePct": 0.4410143329658214,
-      "sampleCount": 45
+      "latestPrice": 6468,
+      "changePct": 1.4270032930845227,
+      "sampleCount": 46
     },
     {
       "key": "Paddy straw||Punjab / Haryana||Non-torrefied agri pellet",
@@ -2045,11 +2081,20 @@
           "title": "Paddy straw · Punjab / Haryana · indicative",
           "url": "",
           "id": "bd94c062d775a7ee"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 6233,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Paddy straw · Punjab / Haryana · indicative",
+          "url": "",
+          "id": "73c6c7848806a4b2"
         }
       ],
-      "latestPrice": 6170,
-      "changePct": -1.0266281681103626,
-      "sampleCount": 45
+      "latestPrice": 6233,
+      "changePct": 1.0210696920583469,
+      "sampleCount": 46
     },
     {
       "key": "Cotton stalk||West India||Non-torrefied agri pellet",
@@ -2443,11 +2488,20 @@
           "title": "Cotton stalk · West India · indicative",
           "url": "",
           "id": "cedbf078775b68ac"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 5986,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Cotton stalk · West India · indicative",
+          "url": "",
+          "id": "af638d717caa46ee"
         }
       ],
-      "latestPrice": 6047,
-      "changePct": 0.41514447027565593,
-      "sampleCount": 44
+      "latestPrice": 5986,
+      "changePct": -1.0087646766991898,
+      "sampleCount": 45
     },
     {
       "key": "Wheat straw||North India||Non-torrefied agri pellet",
@@ -2850,11 +2904,20 @@
           "title": "Wheat straw · North India · indicative",
           "url": "",
           "id": "07b1399a6dee6f49"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 5764,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Wheat straw · North India · indicative",
+          "url": "",
+          "id": "f715fb7455f2c462"
         }
       ],
-      "latestPrice": 5866,
-      "changePct": 0.8770421324161651,
-      "sampleCount": 45
+      "latestPrice": 5764,
+      "changePct": -1.7388339584043642,
+      "sampleCount": 46
     },
     {
       "key": "Sugarcane trash / bagasse||Maharashtra / Gujarat||Non-torrefied agri pellet",
@@ -3257,11 +3320,20 @@
           "title": "Sugarcane trash / bagasse · Maharashtra / Gujarat · indicative",
           "url": "",
           "id": "161489df34eef876"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 5493,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Sugarcane trash / bagasse · Maharashtra / Gujarat · indicative",
+          "url": "",
+          "id": "2a84b483249b7f0e"
         }
       ],
-      "latestPrice": 5443,
-      "changePct": 0.1287711552612215,
-      "sampleCount": 45
+      "latestPrice": 5493,
+      "changePct": 0.9186110600771633,
+      "sampleCount": 46
     },
     {
       "key": "Rice husk||East India||Non-torrefied agri pellet",
@@ -3655,14 +3727,149 @@
           "title": "Rice husk · East India · indicative",
           "url": "",
           "id": "c739f69cd1ef6d44"
+        },
+        {
+          "ts": "2026-10-04T05:44:56.447Z",
+          "priceInrPerMt": 5257,
+          "kind": "benchmark",
+          "sourceLabel": "Screening benchmark",
+          "title": "Rice husk · East India · indicative",
+          "url": "",
+          "id": "f45fdba66bab4662"
         }
       ],
-      "latestPrice": 5140,
-      "changePct": -1.0396611474778592,
-      "sampleCount": 44
+      "latestPrice": 5257,
+      "changePct": 2.2762645914396886,
+      "sampleCount": 45
     }
   ],
   "points": [
+    {
+      "id": "73c6c7848806a4b2",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 6233,
+      "feedstock": "Paddy straw",
+      "region": "Punjab / Haryana",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Paddy straw · Punjab / Haryana · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "f715fb7455f2c462",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 5764,
+      "feedstock": "Wheat straw",
+      "region": "North India",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Wheat straw · North India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "2a84b483249b7f0e",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 5493,
+      "feedstock": "Sugarcane trash / bagasse",
+      "region": "Maharashtra / Gujarat",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Sugarcane trash / bagasse · Maharashtra / Gujarat · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "5d012a18c9a167cf",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 6468,
+      "feedstock": "Mustard husk",
+      "region": "North India",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Mustard husk · North India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "af638d717caa46ee",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 5986,
+      "feedstock": "Cotton stalk",
+      "region": "West India",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Cotton stalk · West India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "f45fdba66bab4662",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 5257,
+      "feedstock": "Rice husk",
+      "region": "East India",
+      "grade": "Non-torrefied agri pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Rice husk · East India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "2bbbfcf03a44f14a",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 6513,
+      "feedstock": "Mixed agri residue",
+      "region": "All India",
+      "grade": "Industrial / co-firing grade",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Mixed agri residue · All India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "55c03b7cfdc425ca",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 9143,
+      "feedstock": "Torrefied / densified",
+      "region": "All India",
+      "grade": "Torrefied pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Torrefied / densified · All India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
+    {
+      "id": "283f78a24edb8bbf",
+      "ts": "2026-10-04T05:44:56.447Z",
+      "discoveredAt": "2026-10-04T05:44:56.447Z",
+      "priceInrPerMt": 11114,
+      "feedstock": "Wood / sawdust",
+      "region": "South India",
+      "grade": "Export / wood pellet",
+      "source": "benchmark",
+      "sourceLabel": "Screening benchmark",
+      "title": "Wood / sawdust · South India · indicative",
+      "url": "",
+      "kind": "benchmark"
+    },
     {
       "id": "bd94c062d775a7ee",
       "ts": "2026-10-03T01:51:25.825Z",
@@ -9128,132 +9335,6 @@
       "ts": "2026-08-22T10:20:00.763Z",
       "discoveredAt": "2026-08-22T10:20:00.763Z",
       "priceInrPerMt": 6406,
-      "feedstock": "Mustard husk",
-      "region": "North India",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Mustard husk · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "5016fb10faa23700",
-      "ts": "2026-08-22T10:20:00.763Z",
-      "discoveredAt": "2026-08-22T10:20:00.763Z",
-      "priceInrPerMt": 6045,
-      "feedstock": "Cotton stalk",
-      "region": "West India",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Cotton stalk · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "a9fadea25bce1e8b",
-      "ts": "2026-08-22T10:20:00.763Z",
-      "discoveredAt": "2026-08-22T10:20:00.763Z",
-      "priceInrPerMt": 5239,
-      "feedstock": "Rice husk",
-      "region": "East India",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Rice husk · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "2a63825d9149c374",
-      "ts": "2026-08-22T10:20:00.763Z",
-      "discoveredAt": "2026-08-22T10:20:00.763Z",
-      "priceInrPerMt": 6492,
-      "feedstock": "Mixed agri residue",
-      "region": "All India",
-      "grade": "Industrial / co-firing grade",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Mixed agri residue · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "071a3ada8b58c0fc",
-      "ts": "2026-08-22T10:20:00.763Z",
-      "discoveredAt": "2026-08-22T10:20:00.763Z",
-      "priceInrPerMt": 8777,
-      "feedstock": "Torrefied / densified",
-      "region": "All India",
-      "grade": "Torrefied pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Torrefied / densified · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "2ed2c481983677db",
-      "ts": "2026-08-22T10:20:00.763Z",
-      "discoveredAt": "2026-08-22T10:20:00.763Z",
-      "priceInrPerMt": 10989,
-      "feedstock": "Wood / sawdust",
-      "region": "South India",
-      "grade": "Export / wood pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Wood / sawdust · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "d302839f67b6344e",
-      "ts": "2026-08-21T10:20:00.763Z",
-      "discoveredAt": "2026-08-21T10:20:00.763Z",
-      "priceInrPerMt": 6241,
-      "feedstock": "Paddy straw",
-      "region": "Punjab / Haryana",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Paddy straw · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "ff1e81d9835670e1",
-      "ts": "2026-08-21T10:20:00.763Z",
-      "discoveredAt": "2026-08-21T10:20:00.763Z",
-      "priceInrPerMt": 5855,
-      "feedstock": "Wheat straw",
-      "region": "North India",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Wheat straw · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "1dd0ab03b4ce4c07",
-      "ts": "2026-08-21T10:20:00.763Z",
-      "discoveredAt": "2026-08-21T10:20:00.763Z",
-      "priceInrPerMt": 5547,
-      "feedstock": "Sugarcane trash / bagasse",
-      "region": "Maharashtra / Gujarat",
-      "grade": "Non-torrefied agri pellet",
-      "source": "benchmark",
-      "sourceLabel": "Screening benchmark",
-      "title": "Sugarcane trash / bagasse · seeded history",
-      "url": "",
-      "kind": "benchmark"
-    },
-    {
-      "id": "2cd56891e62ab477",
-      "ts": "2026-08-21T10:20:00.763Z",
-      "discoveredAt": "2026-08-21T10:20:00.763Z",
-      "priceInrPerMt": 6422,
       "feedstock": "Mustard husk",
       "region": "North India",
       "grade": "Non-torrefied agri pellet",
