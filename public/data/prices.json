@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T07:13:26.176Z",
-  "crawlDurationMs": 9911,
+  "updatedAt": "2026-10-05T11:45:07.469Z",
+  "crawlDurationMs": 685,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,72 +13,35 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "NTPC / co-firing buy",
       "query": "NTPC (\"biomass pellet\" OR \"agro residue\") (price OR benchmark OR \"Rs\" OR ₹ OR procurement)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "West India bagasse",
       "query": "(bagasse OR \"sugarcane trash\") pellet (price OR ₹ OR Rs) (Maharashtra OR Gujarat OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Agri pellet price IN · google",
-      "error": "Status code 503"
-    },
-    {
-      "label": "Agri pellet price IN · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "Paddy straw pellet · google",
-      "error": "Status code 503"
-    },
-    {
-      "label": "Paddy straw pellet · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
-    },
-    {
-      "label": "NTPC / co-firing buy · google",
-      "error": "Status code 503"
-    },
-    {
-      "label": "NTPC / co-firing buy · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
-      "label": "Torrefied pellet · google",
-      "error": "Status code 503"
-    },
-    {
-      "label": "West India bagasse · google",
-      "error": "Status code 503"
-    },
-    {
-      "label": "Mustard / cotton stalk · google",
-      "error": "Status code 503"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
