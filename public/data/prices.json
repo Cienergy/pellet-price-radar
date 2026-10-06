@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T21:04:27.167Z",
-  "crawlDurationMs": 689,
+  "updatedAt": "2026-10-06T23:36:25.033Z",
+  "crawlDurationMs": 1004,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,12 +13,12 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": false
+      "ok": true
     },
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "NTPC / co-firing buy",
@@ -41,16 +41,7 @@
       "ok": true
     }
   ],
-  "errors": [
-    {
-      "label": "Agri pellet price IN · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
-    },
-    {
-      "label": "Paddy straw pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    }
-  ],
+  "errors": [],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
