@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T18:52:53.010Z",
-  "crawlDurationMs": 648,
+  "updatedAt": "2026-10-09T19:47:45.946Z",
+  "crawlDurationMs": 639,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,7 +18,7 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": false
+      "ok": true
     },
     {
       "label": "NTPC / co-firing buy",
@@ -43,12 +43,8 @@
   ],
   "errors": [
     {
-      "label": "Paddy straw pellet · bing",
-      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
-    },
-    {
       "label": "NTPC / co-firing buy · bing",
-      "error": "Feed not recognized as RSS 1 or 2."
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
   "series": [
