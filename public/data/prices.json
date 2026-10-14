@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T00:36:00.098Z",
-  "crawlDurationMs": 721,
+  "updatedAt": "2026-10-14T05:17:22.523Z",
+  "crawlDurationMs": 1162,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -28,7 +28,7 @@
     {
       "label": "Torrefied pellet",
       "query": "\"torrefied\" pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "West India bagasse",
@@ -38,12 +38,12 @@
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": false
+      "ok": true
     }
   ],
   "errors": [
     {
-      "label": "Mustard / cotton stalk · bing",
+      "label": "Torrefied pellet · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
