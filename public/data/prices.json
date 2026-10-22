@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-22T22:59:15.972Z",
-  "crawlDurationMs": 701,
+  "updatedAt": "2026-10-22T23:53:24.864Z",
+  "crawlDurationMs": 665,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -38,10 +38,15 @@
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "label": "Mustard / cotton stalk · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    }
+  ],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
