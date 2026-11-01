@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T04:42:16.262Z",
-  "crawlDurationMs": 783,
+  "updatedAt": "2026-11-01T08:14:08.925Z",
+  "crawlDurationMs": 701,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -13,7 +13,7 @@
     {
       "label": "Agri pellet price IN",
       "query": "\"biomass pellet\" OR \"agro residue pellet\" (price OR ₹ OR Rs OR \"per tonne\" OR \"per ton\" OR MT) India",
-      "ok": true
+      "ok": false
     },
     {
       "label": "Paddy straw pellet",
@@ -38,16 +38,24 @@
     {
       "label": "Mustard / cotton stalk",
       "query": "(\"mustard husk\" OR \"cotton stalk\") pellet (price OR ₹ OR Rs OR \"per tonne\") India",
-      "ok": true
+      "ok": false
     }
   ],
   "errors": [
+    {
+      "label": "Agri pellet price IN · bing",
+      "error": "Feed not recognized as RSS 1 or 2."
+    },
     {
       "label": "NTPC / co-firing buy · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     },
     {
       "label": "West India bagasse · bing",
+      "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
+    },
+    {
+      "label": "Mustard / cotton stalk · bing",
       "error": "Unquoted attribute value\nLine: 0\nColumn: 42\nChar: h"
     }
   ],
