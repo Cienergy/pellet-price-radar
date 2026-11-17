@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T19:56:02.608Z",
-  "crawlDurationMs": 850,
+  "updatedAt": "2026-11-17T20:01:22.143Z",
+  "crawlDurationMs": 615,
   "refreshMinutes": 15,
   "stats": {
     "totalPoints": 400,
@@ -18,7 +18,7 @@
     {
       "label": "Paddy straw pellet",
       "query": "\"paddy straw pellet\" OR \"stubble pellet\" (price OR ₹ OR Rs OR \"per tonne\") (Punjab OR Haryana OR India)",
-      "ok": true
+      "ok": false
     },
     {
       "label": "NTPC / co-firing buy",
@@ -41,7 +41,12 @@
       "ok": true
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "label": "Paddy straw pellet · google",
+      "error": "Status code 429"
+    }
+  ],
   "series": [
     {
       "key": "Wood / sawdust||South India||Export / wood pellet",
